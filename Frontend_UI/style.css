@@ -1,0 +1,230 @@
+/* 全局樣式 */
+* {
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-blue: #1a365d;
+    --deep-blue: #1a365d;
+    --deep-blue-hover: #1a365d;
+    --btn-radius: 12px;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* 主容器 */
+.chat-container {
+    max-width: 700px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(26, 54, 93, 0.12);
+    overflow: hidden;
+    padding: 32px;
+    border: 1px solid #e2e8f0;
+}
+
+/* 標題區域 */
+.header {
+    text-align: center;
+    margin-bottom: 32px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #e2e8f0;
+}
+
+h1 {
+    font-size: 24px;
+    color: var(--primary-blue);
+    margin: 0;
+    font-weight: 700;
+    text-shadow: 0 2px 4px rgba(26, 54, 93, 0.1);
+}
+
+/* 聊天區域 */
+#chat {
+    height: 450px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #f8fafc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* 對話框樣式 */
+.msg {
+    margin: 16px 0;
+    padding: 16px 20px;
+    border-radius: 18px;
+    max-width: 80%;
+    line-height: 1.6;
+    font-size: 14px;
+    word-wrap: break-word;
+    position: relative;
+    animation: fadeInUp 0.3s ease-out;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* 用戶消息 */
+.user {
+    background: var(--primary-blue);
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: 0;
+    text-align: right;
+    box-shadow: 0 4px 12px rgba(26, 54, 93, 0.25);
+}
+
+/* 機器人消息 */
+.bot {
+    background: #f1f5f9;
+    color: #374151;
+    margin-right: auto;
+    margin-left: 0;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* 系統消息 */
+.system {
+    background: #add8e6 !important;
+    border: 1px solid #87ceeb !important;
+    color: var(--primary-blue) !important;
+    font-size: 13px !important;
+    max-width: 90% !important;
+    margin: 12px auto !important;
+    text-align: left !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    box-shadow: 0 3px 10px rgba(135, 206, 235, 0.2) !important;
+}
+
+/* 輸入區域 */
+.input-container {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 24px;
+    padding: 6px;
+    box-shadow: 0 4px 16px rgba(26, 54, 93, 0.15);
+}
+
+/* 輸入框 */
+#input {
+    flex: 1;
+    padding: 14px 18px;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    outline: none;
+    background: transparent;
+    font-family: inherit;
+    color: #374151;
+}
+
+#input::placeholder {
+    color: #9ca3af;
+}
+
+/* 發送按鈕 */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 18px;
+    border: none;
+    border-radius: var(--btn-radius);
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    font-weight: 600;
+    font-family: inherit;
+    min-width: 96px;
+    background: var(--deep-blue);
+    color: #ffffff;
+    box-shadow: 0 4px 12px rgba(11,61,145,0.25);
+}
+
+.btn svg { 
+    width: 18px; 
+    height: 18px; 
+    flex-shrink: 0; 
+    display: block; 
+    fill: #ffffff; 
+}
+
+.btn:focus { 
+    outline: 3px solid rgba(11,61,145,0.12); 
+    outline-offset: 2px; 
+}
+
+.btn:hover:not(:disabled) { 
+    transform: translateY(-2px); 
+    background: var(--deep-blue-hover); 
+    box-shadow: 0 8px 24px rgba(11,61,145,0.28); 
+}
+
+.btn:disabled { 
+    background-color: #9ca3af; 
+    cursor: not-allowed; 
+    transform: none; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
+
+/* 滾軸樣式 */
+#chat::-webkit-scrollbar {
+    width: 10px;
+}
+
+#chat::-webkit-scrollbar-track {
+    background-color: #f1f5f9;
+    border-radius: 5px;
+}
+
+#chat::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+#chat::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+}
+
+/* 動畫效果 */
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(12px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* 響應式設計 */
+@media (max-width: 768px) {
+    body { padding: 15px; }
+    .chat-container { padding: 24px; }
+    h1 { font-size: 20px; }
+    #chat { height: 350px; padding: 16px; }
+    .msg { font-size: 13px; max-width: 85%; padding: 12px 16px; }
+    #input, .btn { font-size: 13px; }
+    .btn { padding: 10px 16px; min-width: 70px; }
+}
+
+@media (max-width: 480px) {
+    .chat-container { margin: 10px; padding: 20px; }
+    #chat { height: 300px; }
+    .input-container { flex-direction: column; gap: 10px; border-radius: 16px; padding: 12px; }
+    #input { width: 100%; border-radius: 12px; margin-bottom: 8px; }
+    .btn { width: 100%; padding: 12px; border-radius: 12px; justify-content: center; }
+}
