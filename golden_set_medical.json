@@ -1,0 +1,578 @@
+[
+  {
+    "id": "g001",
+    "question": "FootAnalyzer 系統的三大核心功能是什麼？",
+    "gold_chunks": [
+      "med#0002",
+      "med#0001"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g002",
+    "question": "拇趾外翻的定義與典型症狀有哪些？",
+    "gold_chunks": [
+      "med#0003",
+      "med#0291"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g003",
+    "question": "拇趾外翻最大的成因是什麼？",
+    "gold_chunks": [
+      "med#0004",
+      "med#0279"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g004",
+    "question": "容易導致拇趾外翻的腳型特徵有哪些？",
+    "gold_chunks": [
+      "med#0005",
+      "med#0238"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g005",
+    "question": "哪些鞋款或穿鞋習慣會加劇拇趾外翻？原因是什麼？",
+    "gold_chunks": [
+      "med#0006",
+      "med#0044"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g006",
+    "question": "拇趾外翻角度（HVA）簡易分級的範圍是多少？",
+    "gold_chunks": [
+      "med#0007",
+      "med#0275"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g007",
+    "question": "同時考慮 HVA 與 IMA 的拇趾外翻分級標準是什麼？",
+    "gold_chunks": [
+      "med#0275",
+      "med#0007"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g008",
+    "question": "輕微/中度/嚴重拇趾外翻的一般處置建議分別是什麼？",
+    "gold_chunks": [
+      "med#0054",
+      "med#0010"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g009",
+    "question": "拇趾外翻的一般保健原則有哪些？（鞋子、輔具、運動）",
+    "gold_chunks": [
+      "med#0011",
+      "med#0033"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g010",
+    "question": "矯正套對拇趾外翻的效果如何？大概能改善多少度、需要多久？",
+    "gold_chunks": [
+      "med#0012"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g011",
+    "question": "為什麼拇趾外翻可能影響到膝蓋、腰背或肩頸？",
+    "gold_chunks": [
+      "med#0013"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g012",
+    "question": "扁平足的定義是什麼？足部結構有哪些組成？",
+    "gold_chunks": [
+      "med#0014",
+      "med#0285"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g013",
+    "question": "扁平足對行走/跑跳的功能影響是什麼？",
+    "gold_chunks": [
+      "med#0015",
+      "med#0088"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g014",
+    "question": "扁平足的先天性原因有哪些？",
+    "gold_chunks": [
+      "med#0016",
+      "med#0286"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g015",
+    "question": "扁平足的後天性成因有哪些？",
+    "gold_chunks": [
+      "med#0017",
+      "med#0156"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g016",
+    "question": "扁平足的簡易觀察方法有哪些？",
+    "gold_chunks": [
+      "med#0018",
+      "med#0196"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g017",
+    "question": "扁平足的專業檢測方式有哪些？",
+    "gold_chunks": [
+      "med#0019",
+      "med#0197"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g018",
+    "question": "一般幼兒扁平足通常會在幾歲恢復？什麼情況需要介入？",
+    "gold_chunks": [
+      "med#0194",
+      "med#0193"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g019",
+    "question": "扁平足的運動訓練方法有哪些？請列 3-5 種。",
+    "gold_chunks": [
+      "med#0024",
+      "med#0288"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g020",
+    "question": "為扁平足兒童挑選鞋子時應注意哪些要點？",
+    "gold_chunks": [
+      "med#0026",
+      "med#0273"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g021",
+    "question": "鞋底磨損可以看出哪些足部問題？常見三種異常磨損模式是什麼？",
+    "gold_chunks": [
+      "med#0029",
+      "med#0030"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g022",
+    "question": "足底筋膜炎常見的疼痛部位與誘發因素有哪些？",
+    "gold_chunks": [
+      "med#0154",
+      "med#0295"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g023",
+    "question": "足底筋膜炎的保護原則有哪些？（避免、休息、訓練）",
+    "gold_chunks": [
+      "med#0032",
+      "med#0288"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g024",
+    "question": "足底筋膜炎選鞋與輔具的重點是什麼？",
+    "gold_chunks": [
+      "med#0033",
+      "med#0011"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g025",
+    "question": "前腳掌痛（蹠痛）和足底筋膜炎的差別是什麼？",
+    "gold_chunks": [
+      "med#0291",
+      "med#0220"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g026",
+    "question": "雞眼形成的主要原因是什麼？如何預防復發？",
+    "gold_chunks": [
+      "med#0245",
+      "med#0046"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g027",
+    "question": "急性足踝扭傷 48-72 小時的處理口訣是什麼？",
+    "gold_chunks": [
+      "med#0250"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g028",
+    "question": "扭傷後的恢復時間表大約多久？",
+    "gold_chunks": [
+      "med#0252"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g029",
+    "question": "高弓足（空凹足）的定義與受力特徵是什麼？",
+    "gold_chunks": [
+      "med#0294",
+      "med#0293",
+      "med#0071",
+      "med#0072"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g030",
+    "question": "高弓足可能造成哪些問題或併發症？",
+    "gold_chunks": [
+      "med#0295",
+      "med#0075"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g031",
+    "question": "內八步態常見的三個原因是什麼？",
+    "gold_chunks": [
+      "med#0175",
+      "med#0130"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g032",
+    "question": "W 型坐姿對孩子可能造成哪些影響？",
+    "gold_chunks": [
+      "med#0109", 
+      "med#0112", 
+      "med#0110", 
+      "med#0141", 
+      "med#0120"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g033",
+    "question": "訂製鞋墊的製作流程是什麼？大概需要多久？",
+    "gold_chunks": [
+      "med#0207",
+      "med#0268"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g034",
+    "question": "鞋墊使用多久可以看到改善？多久需要複評？",
+    "gold_chunks": [
+      "med#0209"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g035",
+    "question": "Llama 3 在 Ollama 上的最佳推理參數是什麼？",
+    "gold_chunks": [],
+    "answer_key": "",
+    "unanswerable": true
+  },
+  {
+    "id": "g036",
+    "question": "拇趾外翻手術的具體術式有哪些？各自風險？",
+    "gold_chunks": [],
+    "answer_key": "",
+    "unanswerable": true
+  },
+  {
+    "id": "g037",
+    "question": "糖尿病足潰瘍的抗生素怎麼選？",
+    "gold_chunks": [],
+    "answer_key": "",
+    "unanswerable": true
+  },
+  {
+    "id": "g038",
+    "question": "選鞋最佳時間為什麼通常建議在黃昏？",
+    "gold_chunks": [
+      "med#0236"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g039",
+    "question": "如果左右腳尺寸不同，選鞋時應以哪一腳為標準？",
+    "gold_chunks": [
+      "med#0237"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g040",
+    "question": "正確修剪指甲的原則是什麼？",
+    "gold_chunks": [
+      "med#0249"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g041",
+    "question": "預防凍甲/嵌甲反覆發生的生活習慣有哪些？",
+    "gold_chunks": [
+      "med#0247",
+      "med#0249"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g042",
+    "question": "鞋墊清潔與保養有哪些注意事項？",
+    "gold_chunks": [
+      "med#0215",
+      "med#0216",
+      "med#0282"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g043",
+    "question": "舒活足鞋墊的耐用性（骨架 vs 配件）大約多久？",
+    "gold_chunks": [
+      "med#0213"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g044",
+    "question": "兒童鞋墊通常可以使用多久？為什麼不是半年換一次？",
+    "gold_chunks": [
+      "med#0214",
+      "med#0286"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g045",
+    "question": "高跟鞋為什麼容易造成腰酸背痛？",
+    "gold_chunks": [
+      "med#0163",
+      "med#0164",
+      "med#0221"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g046",
+    "question": "什麼是蹠底神經瘤（莫頓氏神經瘤）？典型症狀像什麼？",
+    "gold_chunks": [
+      "med#0219",
+      "med#0217"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g047",
+    "question": "蹠底神經瘤的誘發因素有哪些？",
+    "gold_chunks": [
+      "med#0218",
+      "med#0088"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g048",
+    "question": "蹠痛好發族群有哪些？",
+    "gold_chunks": [
+      "med#0221",
+      "med#0045"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g049",
+    "question": "蹠痛的疼痛位置常出現在哪個時期最痛？",
+    "gold_chunks": [
+      "med#0223",
+      "med#0291"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g050",
+    "question": "退化性關節炎的早期徵兆有哪些？可先用哪些方式改善？",
+    "gold_chunks": [
+      "med#0225",
+      "med#0224"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g051",
+    "question": "異常鞋底磨損中，內側磨損通常和哪種足型相關？可能影響什麼？",
+    "gold_chunks": [
+      "med#0029",
+      "med#0020"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g052",
+    "question": "異常鞋底磨損中，外側磨損通常和哪種腿型相關？",
+    "gold_chunks": [
+      "med#0029",
+      "med#0125"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g053",
+    "question": "如何透過鞋子或矯形鞋墊改善 O 型腿 / X 型腿的行走不適？",
+    "gold_chunks": [
+      "med#0030",
+      "med#0097"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g054",
+    "question": "內八步態在臨床上常見於幾歲孩童？大約比例多少？",
+    "gold_chunks": [
+      "med#0127",
+      "med#0178"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g055",
+    "question": "小腿脛骨內旋常見於幾歲？外觀最明顯特徵是什麼？",
+    "gold_chunks": [
+      "med#0131",
+      "med#0175"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g056",
+    "question": "孩童超過幾歲仍有脛骨內旋內八，且角度超過多少需要處理？",
+    "gold_chunks": [
+      "med#0133"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g057",
+    "question": "扁平足盛行率集中在幾歲？（文件中的描述）",
+    "gold_chunks": [
+      "med#0099"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g058",
+    "question": "糖尿病鞋款在設計上有哪些要求？（楦頭、縫線、材質、穩定、翹板）",
+    "gold_chunks": [
+      "med#0234",
+      "med#0233"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  },
+  {
+    "id": "g059",
+    "question": "糖尿病患者足部照護原則有哪些？（文件中提到的新鞋穿著原則）",
+    "gold_chunks": [
+      "med#0263"
+    ],
+    "answer_key": "",
+    "unanswerable": false
+  }
+]
